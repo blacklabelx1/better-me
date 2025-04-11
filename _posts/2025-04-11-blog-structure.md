@@ -4,6 +4,8 @@ title: "Minimal Mistakes Structure"
 date: 2025-04-11
 categories: [Jekyll, Theme]
 tags: [minimal-mistakes]
+toc: true
+toc_sticky: true
 comments: true
 
 ---

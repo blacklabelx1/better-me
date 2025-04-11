@@ -3,6 +3,8 @@ title: "Hello, Jekyll!"
 date: 2025-04-11
 categories: [blog]
 tags: [jekyll, example]
+comments: true
+
 ---
 
 This is my **first post** on the better-me blog ✨

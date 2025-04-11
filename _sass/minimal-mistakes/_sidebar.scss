@@ -122,23 +122,31 @@
    ========================================================================== */
 
 .author__avatar {
+  //작은 화면 (eg.모바일)
   display: table-cell;
   vertical-align: top;
   width: 36px;
   height: 36px;
-
+  
+  // 큰 화면 (eg. desktop)
   @include breakpoint($large) {
+    // display: block;
+    // width: auto;
+    // height: auto;
     display: block;
-    width: auto;
-    height: auto;
+    width: 100%;
+    max-width: 110px;
+    margin: 0 auto; // 가운데 정렬
   }
 
   img {
     // max-width: 110px;
-    width: 110px; // 크기 고정
-    height: 110px; // 크기 고정
-    object-fit: cover; // 이미지 비율 유지
+    // border-radius: 50%;
+    width: 100%;
+    aspect-ratio: 1 / 1;     // ✅ 정사각형 비율 유지
+    object-fit: cover;       // ✅ 꽉 채우되 찌그러지지 않게
     border-radius: 50%;
+    
 
     @include breakpoint($large) {
       padding: 5px;

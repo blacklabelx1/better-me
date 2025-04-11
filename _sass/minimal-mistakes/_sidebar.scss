@@ -130,19 +130,15 @@
   
   // 큰 화면 (eg. desktop)
   @include breakpoint($large) {
-    // display: block;
-    // width: auto;
-    // height: auto;
     display: block;
-    width: 100%;
-    max-width: 110px;
-    margin: 0 auto; // 가운데 정렬
+    width: auto;
+    height: auto;
   }
 
   img {
     // max-width: 110px;
     // border-radius: 50%;
-    width: 100%;
+    max-width: 110px;
     aspect-ratio: 1 / 1;     // ✅ 정사각형 비율 유지
     object-fit: cover;       // ✅ 꽉 채우되 찌그러지지 않게
     border-radius: 50%;

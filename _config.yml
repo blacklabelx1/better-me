@@ -116,7 +116,7 @@ author:
   name             : "Jay"
   avatar           : "/assets/images/bio-photo2.jpg" # path of avatar image
   bio              : "Becoming better by overcoming myself 🌱"
-  # location         : "Somewhere"
+  location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
@@ -320,7 +320,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false # false로 변경
+      show_date: true # 포스팅 날짜 표시
       comments: true
       share: true
       related: true

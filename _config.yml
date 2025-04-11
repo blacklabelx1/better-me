@@ -325,12 +325,14 @@ defaults:
       share: true
       related: true
 
-# comments
+# utterances comments
+repository:
+
 comments:
   provider: "utterances"
   utterances:
-    repo: blacklabelx1/better-me
-    issue_term: pathname
-    label: "💬 Comment"
-    theme: "github-light"
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+
 

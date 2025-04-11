@@ -326,7 +326,7 @@ defaults:
       related: true
 
 # utterances comments
-repository:
+repository: blacklabelx1/better-me
 
 comments:
   provider: "utterances"

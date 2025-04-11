@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Hello, Jekyll!"
 date: 2025-04-11
 categories: [blog]

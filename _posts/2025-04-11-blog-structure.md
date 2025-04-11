@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Minimal Mistakes Structure"
 date: 2025-04-11
 categories: [Jekyll, Theme]

@@ -134,7 +134,10 @@
   }
 
   img {
-    max-width: 110px;
+    // max-width: 110px;
+    width: 110px; // 크기 고정
+    height: 110px; // 크기 고정
+    object-fit: cover; // 이미지 비율 유지
     border-radius: 50%;
 
     @include breakpoint($large) {

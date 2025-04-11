@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jay"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Becoming better by overcoming myself 🌱"
+  # location         : "Somewhere"
   email            :
   links:
     - label: "Email"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/blacklabelx1"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/blacklabelx1"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -321,6 +321,16 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+
+# comments
+comments:
+  provider: "utterances"
+  utterances:
+    repo: blacklabelx1/better-me
+    issue_term: pathname
+    label: "💬 Comment"
+    theme: "github-light"
+

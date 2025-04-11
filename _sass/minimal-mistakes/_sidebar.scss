@@ -122,13 +122,11 @@
    ========================================================================== */
 
 .author__avatar {
-  //작은 화면 (eg.모바일)
   display: table-cell;
   vertical-align: top;
   width: 36px;
   height: 36px;
-  
-  // 큰 화면 (eg. desktop)
+
   @include breakpoint($large) {
     display: block;
     width: auto;
@@ -145,6 +143,7 @@
     }
   }
 }
+
 
 .author__content {
   display: table-cell;

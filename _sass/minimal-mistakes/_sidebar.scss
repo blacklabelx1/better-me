@@ -138,11 +138,6 @@
   img {
     // max-width: 110px;
     // border-radius: 50%;
-    max-width: 110px;
-    aspect-ratio: 1 / 1;     // ✅ 정사각형 비율 유지
-    object-fit: cover;       // ✅ 꽉 채우되 찌그러지지 않게
-    border-radius: 50%;
-    
 
     @include breakpoint($large) {
       padding: 5px;

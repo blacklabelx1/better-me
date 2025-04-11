@@ -7,6 +7,9 @@ comments: true
 
 ---
 
+이 문서는 Minimal Mistakes Jekyll 테마의 디렉토리 구조와 각 폴더 및 파일의 역할을 설명합니다. 테마를 커스터마이징하거나 이해하는 데 도움이 됩니다.
+
+> ref: <https://mmistakes.github.io/minimal-mistakes/docs/structure/>
 
 ```cmd
 minimal-mistakes

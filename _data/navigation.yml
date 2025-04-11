@@ -5,7 +5,7 @@ main:
   - title: "Posts"
     url: "/posts/"
   - title: "Categories"
-    url: "/catecories/"
+    url: "/categories/"
   - title: "Tags"
     url: "/tags/"
   - title: "Quick-Start Guide"

@@ -63,3 +63,9 @@ minimal-mistakes
 └── package.json               # NPM build scripts
 
 ```
+
+```python
+a = 2
+```
+
+<pre> ```python print("hello") ``` </pre>

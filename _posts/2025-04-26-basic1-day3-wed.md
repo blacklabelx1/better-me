@@ -14,7 +14,9 @@ comments: true
 
 # 루카스 AS
 
-$$y=y_n + \alpha(p-p^e)$$
+$$
+y=y_n + \alpha(p-p^e)
+$$
 
 - $p=p^e$
 - $p\neq p^e$

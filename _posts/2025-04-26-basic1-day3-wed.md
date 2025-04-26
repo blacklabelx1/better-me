@@ -12,7 +12,7 @@ comments: true
 
 ---
 
-# 루카스 AS
+## 루카스 AS
 
 $$
 y=y_n + \alpha(p-p^e)

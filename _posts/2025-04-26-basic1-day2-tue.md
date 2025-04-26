@@ -4,14 +4,14 @@ title: " **[TUE]** MRPL=MFCL, 비용증명"
 date: 2025-04-26
 categories: [경제학]
 tags: [요일별 쓰기, 스터디, 미시경제학]
-excerpt: "implode, tempt"
+excerpt: "화요일 요일별 쓰기 - MRPL=MFCL"
 toc: true
 toc_sticky: true
 comments: true
 
 ---
 
-# [TUE] MRPL = MFCL
+# MRPL = MFCL
 > 생산물은 독립적이지만 생산요소는 생산물에서 파생되기 때문에 독립적이지 않다. 
 
 ## 생산물시장 공급곡선

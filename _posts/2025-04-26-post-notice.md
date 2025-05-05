@@ -8,6 +8,9 @@ tags:
   - notice
 
 excerpt: "블로그에 Notice Box를 추가하는 방법에 대해 알아보자."
+toc: true
+toc_sticky: true
+comments: true
 ---
 
 Notice Box는 콘텐츠 안에서 중요한 정보나 알림을 강조해서 보여주는 박스를 말한다. 

@@ -18,6 +18,8 @@ mmistakes 테마는 notice 기능을 기본적으로 완비하고 있다 때문�
 
 지금부터 그 사용법을 알아보자. 
 
+### Using Kramdown
+
 Notice 박스를 추가하려면 텍스트 뒤에 {:.notice--타입}만 추가하면 간편하게 강조박스를 만들 수 있다:
 
 ```
@@ -45,6 +47,19 @@ Notice 박스를 추가하려면 텍스트 뒤에 {:.notice--타입}만 추가�
 
 **Success Notice:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at [nibh elementum](#) imperdiet.
 {: .notice--success}
+
+
+### Using capture + markdownify
+
+{% capture my_notice %}
+### ⚠️ 중요 안내
+- 이것은 첫 번째 문단입니다.
+- 이것은 두 번째 문단입니다. 줄바꿈도 잘 처리됩니다.
+{% endcapture %}
+
+<div class="notice notice--warning">
+  {{ my_notice | markdownify }}
+</div>
 
 ---
 ***reference***

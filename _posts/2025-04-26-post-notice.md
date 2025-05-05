@@ -52,7 +52,7 @@ Notice 박스를 추가하려면 텍스트 뒤에 {:.notice--타입}만 추가�
 ### Using capture + markdownify
 
 {% capture my_notice %}
-### ⚠️ 중요 안내
+#### ⚠️ 중요 안내
 - 이것은 첫 번째 문단입니다.
 - 이것은 두 번째 문단입니다. 줄바꿈도 잘 처리됩니다.
 {% endcapture %}
